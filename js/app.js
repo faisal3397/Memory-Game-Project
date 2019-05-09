@@ -95,7 +95,6 @@ const game = function(){
 
             
             if(lockedCardsArray.length == 16){
-                console.log("You Win Madafakaaaaaaaaa");
                 console.log(lockedCardsArray, "Locked"); 
                 clearInterval(tick)
                 while(lockedCardsArray.length > 0){
